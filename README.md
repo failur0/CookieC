@@ -173,7 +173,7 @@ function runGame()
         {x1, y1},
         {x2, y2, ["moveOnly"] = false, ["doublestep"] = 999}
     )
-    client:processRound(
+    server:processRound(
         board:getPiece({x1, y1}),
         {x2, y2, ["moveOnly"] = false, ["doublestep"] = 999}
     )
